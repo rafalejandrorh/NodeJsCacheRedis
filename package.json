@@ -1,0 +1,29 @@
+{
+  "name": "cacheredis",
+  "version": "1.0.0",
+  "description": "Proyecto para probar la caché de Redis con NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafalejandrorh/NodeJsCacheRedis.git"
+  },
+  "author": "Rafael Rivero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafalejandrorh/NodeJsCacheRedis/issues"
+  },
+  "homepage": "https://github.com/rafalejandrorh/NodeJsCacheRedis#readme",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2",
+    "redis": "^4.6.10",
+    "response-time": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
